@@ -65,6 +65,10 @@
     <div class="imagen-header" style="background-image: url('<?php echo $imagenCabecera; ?>');">
     </div>
 
-    <?php echo $estacion?>
+    <?php echo $estacion
+  echo "<div>";
+     echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/8aa3e541f76f90bb90d3ba205f452ee014bc060d/UD3/03Condicionales/04.php'>Ver código</a>";
+     echo "</div>";
+?>
 </body>
 </html>

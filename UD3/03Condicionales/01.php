@@ -30,4 +30,7 @@
                 echo "$num3, $num2, $num1";
             }
     }
+  echo "<div>";
+     echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/8aa3e541f76f90bb90d3ba205f452ee014bc060d/UD3/03Condicionales/01.php'>Ver código</a>";
+     echo "</div>";
 ?>

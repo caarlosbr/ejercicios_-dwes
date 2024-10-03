@@ -1,9 +1,10 @@
 <?php
     
-    /**
-     * @author carlosbr <a24boreca@gmail.com>:
-     * @time
-     * @return 
+   /**
+     * Script que cargue en variables mes y año e indica el número de días del mes. Utiliza la
+     * estructura de control switch
+     *
+     * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
      */
 
      $mes = 9;

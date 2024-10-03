@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <?php
+
+        /** 
+         * Script que modifica la página inicial realizada, incluyendo una imagen de cabecera en función
+         * de la estación del año en la que nos encontremos y un color de fondo en función de
+         * la hora del día.
+         *
+         * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
+         */
+        
+    ?>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página con Estación y Hora</title>
@@ -61,12 +73,12 @@
     }
     ?>
 
-    <!-- Imagen de cabecera según la estación -->
     <div class="imagen-header" style="background-image: url('<?php echo $imagenCabecera; ?>');">
     </div>
 
-    <?php echo $estacion
-  echo "<div>";
+    <?php 
+     echo $estacion;
+     echo "<div>";
      echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/8aa3e541f76f90bb90d3ba205f452ee014bc060d/UD3/03Condicionales/04.php'>Ver código</a>";
      echo "</div>";
 ?>

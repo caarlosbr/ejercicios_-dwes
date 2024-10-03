@@ -1,9 +1,9 @@
 <?php
 
-/**
-     * @author carlosbr <a24boreca@gmail.com>:
-     * @time
-     * @return 
+    /** 
+     * Script que cargue fecha de nacimiento en variables y calcula la edad.
+     *
+     * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
      */
 
     $diaNacimiento = 25;

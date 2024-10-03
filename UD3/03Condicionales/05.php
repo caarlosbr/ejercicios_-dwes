@@ -1,9 +1,9 @@
 <?php
-    /**
-    * @author carlosbr <a24boreca@gmail.com>:
-    * @time
-    * @return 
-    */
+    /** 
+     * Script que muestre una lista de enlaces en función del perfil de usuario:
+     * 
+     * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
+     */
 
 // Definimos el perfil de usuario (puede venir de la sesión, base de datos, etc.)
 $perfil = "Administrador"; // Cambia a "Usuario" para probar con otro perfil

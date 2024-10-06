@@ -10,22 +10,19 @@
      * @date 2024-10-04
      */
 
-    $primeros = array ("Pasta a la carbonara" => array ( "8.00€", "<img src='perfil.png' style='width:150px'>"),
-                        "Pizza Carbonara" => array ("8.00€", "<img src='perfil.png' style='width:150px'>"),
-                        "Sopa de marisco" => array ("8.00€", "<img src='perfil.png' style='width:150px'>"));
+    $primeros = array ("Pasta a la carbonara" => array (8.00, "<img src='img/pasta.jpg' style='width:150px'>"),
+                        "Pizza Margarita" => array (8.00, "<img src='img/pizza.jpg' style='width:150px'>"),
+                        "Sopa de marisco" => array (8.00, "<img src='img/sopa.jpg' style='width:150px'>"));
 
-    $segundos = array("Croquetas" => array ("7.00€", "<img src='perfil.png' style='width:150px'>"),
-                       "Pisto" => array ("7.00€", "<img src='perfil.png' style='width:150px'>"),
-                       "Paella" => array ("7.00€", "<img src='perfil.png' style='width:150px'>"),
-                       "Huevos revueltos" => array ("7.00€", "<img src='perfil.png' style='width:150px'>"), 
-                       "Merluza a la placha" => array ("7.00€", "<img src='perfil.png' style='width:150px'>"));
+    $segundos = array("Croquetas" => array (7.00, "<img src='img/croquetas.jpg' style='width:150px'>"),
+                       "Variedad de verdura" => array (7.00, "<img src='img/ensalada.jpg' style='width:150px'>"),
+                       "Paella" => array (7.00, "<img src='img/paella.jpg' style='width:150px'>"),
+                       "Huevos revueltos" => array (7.00, "<img src='img/huevos.jpg' style='width:150px'>"), 
+                       "Salmon a la placha" => array (7.00, "<img src='img/salmon.jpg' style='width:150px'>"));
 
-    $postres = array ("Helado chocolate" => array ("3.00€", "<img src='perfil.png' style='width:150px'>"),
-                       "Flan de huevo" => array ("3.00€", "<img src='perfil.png' style='width:150px'>"), 
-                       "Tarta de queso" => array ("3.00€", "<img src='perfil.png' style='width:150px'>"));
-
-    //echo $primeros["Pasta a la carbonara"][0.1];
-
+    $postres = array ("Helado chocolate" => array (3.00, "<img src='img/helado.jpg' style='width:150px'>"),
+                       "Flan de huevo" => array (3.00, "<img src='img/tarta.jpg' style='width:150px'>"), 
+                       "Tarta de queso" => array (3.00, "<img src='img/tarta2.jpg' style='width:150px'>"));
     echo "<h1>Menú</h1>";
     echo "<h2>Primeros platos</h2>";
     /* foreach ($primeros as $clave=>$valor){
@@ -61,6 +58,12 @@
         
     }
         
-
+    $primerosPrecio = $primeros["Pasta a la carbonara"][0];
+    $segundosPrecio = $segundos["Paella"][0];
+    $postresPrecio = $postres["Helado chocolate"][0];
+    $precioMenu = $primerosPrecio + $segundosPrecio + $postresPrecio;
+    $restarDescuento = $precioMenu * 20 / 100;
+    $precioFinal = $precioMenu - $restarDescuento;
+    echo "<h3>El precio del menú con el decuento del 20% es de = $precioFinal €</h3>";
 
 ?>

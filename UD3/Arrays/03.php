@@ -44,5 +44,8 @@
     echo "<br>";
     echo "<img src='perfil.png' style='width:150px'>";
 
-
+    echo "<div>";
+        echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD3/Arrays/03.php'>Ver código</a>";
+    echo "</div>";
+    
 ?>

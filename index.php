@@ -1,6 +1,6 @@
 <?php
         /**
-         * Este es el index que contiene todos los ejercicios de la unidad 3
+         * Este es el index que contiene los enlaces para las diferentes ejercicios de cada unidad
          *
          * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
          * @version 8.3.6
@@ -8,14 +8,17 @@
          */
         
         // Esto incluye el archivo .conf que contiene el array de ejercicios por unidades
-        include_once '../conf/conf.php';
-    ?>
+        include_once 'conf/conf.php';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivo de configuración</title>
+    <title>Document</title>
     <style>
         body{
             background:black;
@@ -35,22 +38,15 @@
             text-align: center;
         }
     </style>
+
 </head>
 <body>
-    
     <h1>DWES Carlos Borreguero Redondo</h1>
     <?php
-        
-    foreach ($aEjercicios as $unidad => $temas){
-        foreach ($temas as $tema=>$ejercicios){
-            foreach($ejercicios as $ejercicio){
-                echo "<li><a href='http://192.168.97.118/ejercicios_dwes/$unidad/$tema/$ejercicio'>$tema - $ejercicio</a></li><br>";
-            }                            
-        }                  
-    } 
-
-
-
+        foreach ($aEjercicios as $unidad => $temas){
+            echo "<a href='http://192.168.97.118/ejercicios_dwes/$unidad'>$unidad</a>";
+        }
     ?>
+
 </body>
 </html>

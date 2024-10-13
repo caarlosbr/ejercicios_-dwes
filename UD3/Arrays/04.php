@@ -66,4 +66,7 @@
     $precioFinal = $precioMenu - $restarDescuento;
     echo "<h3>El precio del menú con el decuento del 20% es de = $precioFinal €</h3>";
 
+    echo "<div>";
+        echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD3/Arrays/04.php'>Ver código</a>";
+    echo "</div>";
 ?>

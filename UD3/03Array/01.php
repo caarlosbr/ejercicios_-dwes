@@ -1,11 +1,16 @@
 <?php
 
     /**
-     * Script que escriba los números 1 al 10
+     * Definir un array que permita almacenar y mostrar la siguiente información.
+     *  a. Meses del año.
+     *  b. Tablero para jugar al juego de los barcos.
+     *  c. Nota de los alumnos de 2o DAW para el módulo DWES.
+     *  d. Verbos irregulares en inglés.
+     *  e. Información sobre continentes, países, capitales y banderas.
      *.
      * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
      * @version 8.3.6
-     * @date 2024-10-04
+     * @date 2024-09-27
      */
 
 // Meses del año
@@ -92,9 +97,5 @@ $info = array (
     "Oceania" => array ("Australia" => array ("Melbourne" => array("Azul", "Rojo","Blanco")))
 
 );
-
-echo "<div>";
-    echo "<a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD3/Arrays/01.php'>Ver código</a>";
-echo "</div>";
 
 ?>

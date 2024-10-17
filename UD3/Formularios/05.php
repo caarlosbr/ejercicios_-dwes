@@ -42,7 +42,7 @@
         echo "<input type='submit' name='sumar' value='Sumar'>";
         echo "</form>";
     }
-
+ 
     if (isset($_POST['sumar'])) {
         $numeros = $_POST['numeros'];
         $suma = array_sum($numeros);

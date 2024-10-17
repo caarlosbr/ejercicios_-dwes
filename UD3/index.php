@@ -44,7 +44,7 @@
     foreach ($aEjercicios as $unidad => $temas){
         foreach ($temas as $tema=>$ejercicios){
             foreach($ejercicios as $ejercicio){
-                echo "<li><a href='http://192.168.97.118/ejercicios_dwes/$unidad/$tema/$ejercicio'>$tema - $ejercicio</a></li><br>";
+                echo "<li><a href='http://192.168.116.56/ejercicios_dwes/$unidad/$tema/$ejercicio'>$tema - $ejercicio</a></li><br>";
             }                            
         }                  
     } 

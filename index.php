@@ -44,7 +44,7 @@
     <h1>DWES Carlos Borreguero Redondo</h1>
     <?php
         foreach ($aEjercicios as $unidad => $temas){
-            echo "<a href='http://192.168.97.118/ejercicios_dwes/$unidad'>$unidad</a>";
+            echo "<a href='http://192.168.116.56/ejercicios_dwes/$unidad'>$unidad</a>";
         }
     ?>
 

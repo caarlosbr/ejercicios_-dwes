@@ -37,5 +37,6 @@ if(isset($_POST['enviar'])){
         <span style="color:red"><?php echo $errorSesion; ?></span><br/><br/>
         <input type="submit" name="enviar" value="Inciar Sesion">
     </form>
+    <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/pruebasEjercicios/Cine/login.php">Ver código</a></button>
 </body>
 </html>

@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </table>
         <br>
         <input type="submit" value="Enviar Respuestas"><br/>
-        <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Autentificacion/index.php">Ver código</a></button>
+        <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/pruebasEjercicios/JuegoTablasMultiplicar/index.php">Ver código</a></button>
 
     </form>
 </body>

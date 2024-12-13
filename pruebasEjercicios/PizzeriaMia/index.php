@@ -67,5 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['agregar'])) {
         ?>
     </main>
     </br><a href="cierre2.php">cerrar sesión</a>
+    <a href='https://github.com/caarlosbr/ejercicios_-dwes/blob/main/pruebasEjercicios/PizzeriaMia/index.php'>Ver código</a>
+
 </body>
 </html>

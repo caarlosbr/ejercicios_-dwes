@@ -46,14 +46,11 @@
 
         if ($_SERVER['REQUEST_METHOD'] == "POST"){
             $paisSeleccionado = $_POST['pais'];
-
-            if(array_key_exists($paisSeleccionado, $paises)){
                 $capital = $paises[$paisSeleccionado]['capital'];
                 $bandera = $paises[$paisSeleccionado]['bandera'];
 
                 echo "<p>Capital: $capital</p>";
                 echo "<img src='$bandera' >";
-            }
         }
     ?>
 

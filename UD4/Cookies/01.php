@@ -9,7 +9,7 @@
      */
 
     // Crear la cookie
-    setcookie("c1", "Cookie 1" ,time()+60);
+/*     setcookie("c1", "Cookie 1" ,time()+60);
 
     echo "INicio <br/>";
 
@@ -19,6 +19,16 @@
         echo $_COOKIE['c1'];
      } 
 
-     echo "FIN";
+     echo "FIN"; */
+
+
+
+
+     setcookie("c2","Cookie1", time()+10);
+
+     if(isset($_COOKIE['c2'])){
+        echo $_COOKIE['c2'];
+     }
+
 
 ?>

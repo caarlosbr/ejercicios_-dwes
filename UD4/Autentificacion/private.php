@@ -1,4 +1,8 @@
 <?php
+/**
+ * Pagina privada para los usuarios autenticados
+ * @author Carlos Borreguero Redondo
+ */
     session_start();
 
     if(!isset($_SESSION['usuario'])){

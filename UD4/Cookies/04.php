@@ -15,6 +15,8 @@
         setcookie("contador", $valor, time()+3600);
     }
 
-    echo $_COOKIE['contador'];
-    
+echo $_COOKIE['contador'];
+
 ?>
+
+<button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Cookies/04.php">Ver código</a></button>

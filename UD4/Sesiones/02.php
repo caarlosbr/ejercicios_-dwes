@@ -102,7 +102,7 @@ $current_index2 = $_SESSION['puzle_index2'];
         echo "Intentos: " . $_SESSION['intentos'];?>
     </br><a href="cierre2.php">cerrar sesión</a>
     <div class="ver_codigo">
-        <button type="button"><a href="">Ver código</a></button>
+        <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Sesiones/02.php">Ver código</a></button>
     </div> 
 </body>
 </html>

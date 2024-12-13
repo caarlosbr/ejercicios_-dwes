@@ -1,5 +1,7 @@
 <?php
-    // Página publica donde cualquier usuario tiene acceso, tanto si esta autenticado como si no
+/**
+ * Página publica donde cualquier usuario tiene acceso, tanto si esta autenticado como si no 
+ */
 
 ?>
 <!DOCTYPE html>

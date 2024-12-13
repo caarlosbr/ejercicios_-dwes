@@ -84,5 +84,6 @@ $data = $_SESSION["contacts"];
 
     <br/>
     <a href="destroy.php">Cerrar sesión</a>
+    <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Sesiones/01.php">Ver código</a></button>
 </body>
 </html>

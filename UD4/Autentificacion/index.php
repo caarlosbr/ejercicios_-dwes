@@ -29,7 +29,7 @@
         if(isset($usuarios[$usuario]) && $usuarios[$usuario] === $password){
             // usuario autenticado
             $_SESSION['usuario'] = $usuario;
-            $_SESSION['login_time'] = date('d-m-Y H:i:s');
+            $_SESSION['login_time'] = time();
             $mensaje = "Bienvenido, $usuario";
         } else{
             $mensajeError = "Nombre de usuario o contraseña incorrectos";
@@ -57,7 +57,7 @@
 
     <?php if($autentificado): ?>
         <p>Usuario: <?php echo $_SESSION['usuario'] ?></p>
-        <p>Hora de inicio de sesion: <?php echo $_SESSION['login_time']?></p>
+        <p>Hora de inicio de sesion: <?php echo isset($_SESSION['login_time']) ? date('d-m-Y H:i:s', $_SESSION['login_time']) : 'N/A'; ?></p>
         <p><?php echo $mensaje ?></p>
         <a href="cerrarsesion.php">Cerrar sesion</a>
 
@@ -85,5 +85,7 @@
             <a href="public.php">Pagina publica</a>
         </nav>
     <?php endif; ?>
+    <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Autentificacion/index.php">Ver código</a></button>
+
 </body>
 </html>

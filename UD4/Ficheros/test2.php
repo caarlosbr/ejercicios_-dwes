@@ -50,3 +50,6 @@ while (!feof($file)) {
 
 fclose($file);
 ?>
+
+<button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Ficheros/test2.php">Ver código</a></button>
+

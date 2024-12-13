@@ -3,7 +3,7 @@
  * 
  * Test para comprobar el manejo del fichero de texto
  * 
- * @author 
+ * @author Carlos Borreguero
  * 
  */
 
@@ -32,3 +32,5 @@ while (!feof($file)) {
 fclose($file);
 
 ?>
+
+<button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Ficheros/test1.php">Ver código</a></button>

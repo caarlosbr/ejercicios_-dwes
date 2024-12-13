@@ -69,7 +69,8 @@ for ($i = A_INICIO; $i <= A_FINAL; $i++) {
         <br><br>
 
         <input type="file" name="file" id="file" > <br>
-        <input type="submit" value="Enviar" name="enviar">
+        <input type="submit" value="Enviar" name="enviar"><br/>
+        <button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Ficheros/test3.php">Ver código</a></button>
     </form>
 
 </body>

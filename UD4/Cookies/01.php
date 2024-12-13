@@ -29,6 +29,6 @@
      if(isset($_COOKIE['c2'])){
         echo $_COOKIE['c2'];
      }
-
-
 ?>
+
+<button type="button"><a href="https://github.com/caarlosbr/ejercicios_-dwes/blob/main/UD4/Cookies/01.php">Ver código</a></button>

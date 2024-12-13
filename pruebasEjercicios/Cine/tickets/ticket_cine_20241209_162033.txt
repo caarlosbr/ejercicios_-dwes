@@ -1,0 +1,7 @@
+TICKET DE RESERVA
+Usuario: carlos
+
+Pelicula: Toy Story 4
+Horario: 10:00
+Entradas: 5
+
